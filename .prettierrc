@@ -7,11 +7,19 @@
   "trailingComma": "all",
   "useTabs": false,
   "jsdocDescriptionWithDot": true,
-  "tsdoc": true,
-  "plugins": ["prettier-plugin-jsdoc"],
+
   "jsdocDescriptionTag": true,
   "jsdocVerticalAlignment": true,
   "jsdocSingleLineComment": false,
   "jsdocSeparateReturnsFromParam": true,
-  "jsdocSpaces": 1
+  "jsdocSpaces": 1,
+  "plugins": ["prettier-plugin-jsdoc"],
+  "overrides": [
+    {
+      "files": "*.tsx",
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
 }
