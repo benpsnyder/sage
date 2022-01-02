@@ -17,6 +17,9 @@
   "browserslist": [
     "extends @wordpress/browserslist-config"
   ],
+  "resolutions": {
+    "globby": "^11.0.0"
+  },
   "devDependencies": {
     "@prettier/plugin-php": "^0.17.6",
     "@roots/bud": "^5.0.0",
